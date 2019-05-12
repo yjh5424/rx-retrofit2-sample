@@ -34,6 +34,7 @@ Json : 데이터 형식으로써 []이 있다면 배열 {}이 있다면 오브�
 대부분의 경우 서버랑 통신할 때 json으로 데이터를 주고 받음.
 
 ## http://httpbin.org/get 로 Http통신해보기 
+https://github.com/yjh5424/rx-retrofit2-sample/blob/master/ExHttp/app/src/main/java/com/example/exhttp/MainActivity.kt 
 
 ## 메인쓰레드에서 네트워크 통신을 실행하면 어떻게 될까?
 

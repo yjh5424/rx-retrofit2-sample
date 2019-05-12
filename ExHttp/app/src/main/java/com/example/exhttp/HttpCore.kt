@@ -29,9 +29,10 @@ object HttpCore {
             .build()
     }
 
-    //1.
+    //제너릭 없이 사용하는 방법
     fun getHttpCore() = api.create(SampleApi::class.java)
 
+    //제너릭 써서 사용하는 방법
     inline fun <reified T>getUsingGeneric1()  = api.create(T::class.java)
     fun getUsingGeneric2(clazz: Class<*>) = api.create(clazz::class.java)
 }
@@ -46,17 +47,5 @@ interface SampleApi{
 
 
 data class Model(
-    var url : String,
-    var header : Header,
-    var args :Args,
-    var origin : String
-)
-
-//ex
-data class Header(
-    var some : String? = null
-)
-
-data class Args(
-    var some : String?= null
+    var url : String
 )

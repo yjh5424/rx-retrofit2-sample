@@ -43,7 +43,7 @@ Json : 데이터 형식으로써 []이 있다면 배열 {}이 있다면 오브�
 그 작업이 끝날때 까지는 UI를 변경시킬수 없어서 안드로이드 정책상 
 새로운 쓰레드가 필요한 작업들은 메인 쓰레드가 아닌 다른 쓰레드에서 실행하도록 되어있다.
 
-![https://cdn-images-1.medium.com/max/1200/1*en0HyB8_B8MeruKhFrJ-ew.png]
+![Android-Thread](https://cdn-images-1.medium.com/max/1200/1*en0HyB8_B8MeruKhFrJ-ew.png)
 
 ## Rx 오해
 1. 비동기 처리만 하기위해 쓰이는 것이 아님.
